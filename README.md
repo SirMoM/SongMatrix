@@ -1,0 +1,2 @@
+# SongMatrix
+This webside can show you the repetitiveness of a song using a &lt;a href="https://en.wikipedia.org/wiki/Self-similarity_matrix">Self-similarity matrix&lt;/a> or a &lt;a href="https://en.wikipedia.org/wiki/Dot_plot_(bioinformatics)">Dot plot&lt;/a>. The idea of this project came from Colin Morris "Tedx Talk" &lt;a href="https://youtu.be/_tjFwcmHy5M">Pop Music is Stuck on Repeat&lt;/a>.
