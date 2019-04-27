@@ -26,8 +26,8 @@ function draw() {
 	
 	if (showMatrix) {
 		if (words) {
-			for (let i = 1; i < songWords.length + 1; i++) {
-				for (let j = 1; j < songWords.length + 1; j++) {
+			for (let i = 0; i < songWords.length; i++) {
+				for (let j = 0; j < songWords.length; j++) {
 					if (songWords[i] === songWords[j]) {
 						if (i == j) {
 							fill(0, 255, 0);
@@ -39,8 +39,8 @@ function draw() {
 				}
 			}
 		} else {
-			for (let i = 1; i < songLines.length + 1; i++) {
-				for (let j = 1; j < songLines.length + 1; j++) {
+			for (let i = 0; i < songLines.length; i++) {
+				for (let j = 0; j < songLines.length; j++) {
 					if (songLines[i] === songLines[j]) {
 						if (i == j) {
 							fill(0, 255, 0);
