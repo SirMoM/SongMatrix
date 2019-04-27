@@ -21,7 +21,7 @@ function draw() {
 	words = document.getElementById("wordsRadio").checked;
 	scale = document.getElementById("slider").value;
 	
-	can = createCanvas((songWords.length + 2) * scale, (songWords.length + 2) * scale)
+	can = createCanvas((songWords.length) * scale, (songWords.length) * scale)
 	background(200);
 	
 	if (showMatrix) {
