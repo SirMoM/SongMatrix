@@ -65,7 +65,7 @@ function myFunction() {
 	showMatrix = true;
 	processSongText()
 	draw();
-	loop();
+	//loop();
 }
 
 function saveToIMG(){
