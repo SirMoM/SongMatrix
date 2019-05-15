@@ -20,12 +20,12 @@ function setup() {
 function draw() {
 	words = document.getElementById("wordsRadio").checked;
 	scale = document.getElementById("slider").value;
-	
-	can = createCanvas((songWords.length) * scale, (songWords.length) * scale)
+
 	background(200);
 	
 	if (showMatrix) {
 		if (words) {
+			can = createCanvas((songWords.length) * scale, (songWords.length) * scale)
 			for (let i = 0; i < songWords.length; i++) {
 				for (let j = 0; j < songWords.length; j++) {
 					if (songWords[i] === songWords[j]) {
@@ -39,6 +39,7 @@ function draw() {
 				}
 			}
 		} else {
+			can = createCanvas((songLines.length) * scale, (songLines.length) * scale)
 			for (let i = 0; i < songLines.length; i++) {
 				for (let j = 0; j < songLines.length; j++) {
 					if (songLines[i] === songLines[j]) {
